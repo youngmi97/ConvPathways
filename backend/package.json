@@ -1,0 +1,19 @@
+{
+  "name": "conversational-workflow-backend",
+  "version": "1.0.0",
+  "description": "Backend for conversational workflow system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "twilio": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
